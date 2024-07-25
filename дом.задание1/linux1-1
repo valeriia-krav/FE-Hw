@@ -1,0 +1,33 @@
+0 cd /home
+   1 mrdir animals
+   2 mkdir animals
+   3 ls
+   4 cd animals
+   5 mkdir dogs cats fish
+   6 cd dogs
+   7 touch pluto
+   8 cd ..
+   9 cd cats
+  10 touch garfield
+  11 cd ..
+  12 cd fish
+  13 touch nemo
+  14 ls -l
+  15 cd ..
+  16 ls -l
+  17 cd ..
+  18 cd /tmp
+  19 touch adam
+  20 ls
+  21 mkdir -p /home/humans
+  22 cp /tmp/adam /home/humans
+  23 ls -la /home/humans
+  24 touch /tmp/evA
+  25 touch evA
+  26 mv /tmp/evA /opt/eve
+  27 ls -la
+  28 ls -la /opt
+  29 mv /opt/eve /home/humans
+  30 ls-la /home/humans
+  31 ls -la /home/humans
+  32 history
