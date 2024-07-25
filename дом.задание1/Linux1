@@ -1,0 +1,34 @@
+localhost:/tmp# history
+   0 pwd
+   1 cd /home
+   2 mkdir user1
+   3 ls
+   4 cd user1
+   5 mkdir task1
+   6 cd task1
+   7 touch file1.txt
+   8 pwd
+   9 ls -l
+  10 cd ..
+  11 cd root
+  12 cd ..
+  13 cd /home
+  14 mkdir animals
+  15 ls
+  16 cd animals
+  17 mkdir dogs cats fish
+  18 ls
+  19 touch cats/garfield fish/nemo dogs/pluto
+  20 cd /tmp
+  21 touch adam
+  22 ls
+  23 mkdir -p /home/humans
+  24 cp /tmp/adam /home/humans
+  25 ls -la /home/humans/
+  26 touch /tmp/evA
+  27 touch evA
+  28 mv /tmp/evA /opt/eve
+  29 ls -la /opt
+  30 mv /opt/eve /home/humans
+  31 ls -la /home/humans
+  32 history
